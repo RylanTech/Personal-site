@@ -1,0 +1,57 @@
+.header {
+    background-color: black;
+    padding: 15px 15px 10px 15px;
+    margin-top: 15px;
+    border-radius: 35px;
+}
+.header-text {
+    color:white;
+    font-size: 22px;
+}
+@media (min-width: 992px) {
+    .header-text {
+        font-size: 28px;
+    }   
+}
+.header-links {
+    color: white;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    position: relative;
+}
+
+
+.header-links {
+    text-decoration: none;
+    transition: text-decoration 0.2s ease-in-out;
+}
+
+.header-links:hover {
+    cursor: pointer;
+}
+
+.header-links::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.5s ease-in-out;
+}
+
+.header-links:hover::after {
+    width: 100%;
+}
+
+.my-image {
+    margin-top: 50px!important;
+}
+
+.about-me-section {
+    background-color: black;
+    padding: 50px;
+    border-radius: 15px;
+}
