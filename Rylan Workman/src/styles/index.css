@@ -3,5 +3,9 @@ body {
 }
 
 .google-sans-code {
-    font-family: "Google Sans Code", monospace;
+  font-family: "Google Sans Code", monospace;
+}
+
+.agdasima {
+  font-family: "Agdasima", sans-serif;
 }
