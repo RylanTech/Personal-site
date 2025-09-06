@@ -1,3 +1,7 @@
+body {
+  background-image: linear-gradient(to top, black, rgb(15, 15, 15));
+}
+
 .google-sans-code {
     font-family: "Google Sans Code", monospace;
 }

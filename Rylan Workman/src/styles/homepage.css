@@ -1,18 +1,21 @@
 .header {
     background-color: black;
     padding: 15px 15px 10px 15px;
-    margin-top: 15px;
+    margin-top: 20px !important;
     border-radius: 35px;
 }
+
 .header-text {
-    color:white;
+    color: white;
     font-size: 22px;
 }
+
 @media (min-width: 992px) {
     .header-text {
         font-size: 28px;
-    }   
+    }
 }
+
 .header-links {
     color: white;
     margin-bottom: 5px;
@@ -46,12 +49,48 @@
     width: 100%;
 }
 
-.my-image {
-    margin-top: 50px!important;
+.about-me-section {
+    margin-top: 65px !important;
+    padding: 20px;
+    border-radius: 10px;
+
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
 }
 
-.about-me-section {
-    background-color: black;
-    padding: 50px;
-    border-radius: 15px;
+.my-image {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.name-and-title .subheading {
+    color: rgb(181, 181, 181);
+    font-size: 22px;
+}
+
+.name-and-title {
+    margin-top: 12px !important;
+}
+
+@media (min-width: 768px) {
+    .name-and-title {
+        margin-top: 26px !important;
+    }
+}
+@media (min-width: 992px) {
+    .name-and-title {
+        margin-top: 20px !important;
+    }
+}
+@media (min-width: 1200px) {
+    .name-and-title {
+        margin-top: 32px !important;
+    }
+}
+@media (min-width: 1400px) {
+    .name-and-title {
+        margin-top: 46px !important;
+    }
 }

@@ -19,11 +19,11 @@ function Header() {
     return (
         <>
             <Row>
-                <div className="col-12">
-                    <div className='header col-12'>
+                <div className="col-12 header">
+                    <div className='col-12'>
                         <Container>
                             <Row className="align-items-center">
-                                <h1 className='header-text google-sans-code col-8 col-md-4'>Rylan Workman</h1>
+                                <h1 className='header-text google-sans-code col-12 col-sm-8 col-md-4'>Rylan Workman</h1>
                                 {!isSmallScreen && (
                                     <div className='col-4 d-flex justify-content-between'>
                                         <div className='header-links google-sans-code'>Projects</div>
