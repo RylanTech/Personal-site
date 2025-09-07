@@ -101,7 +101,7 @@
 .about-text-title {
     font-size: 24px;
     color: white;
-    margin-top: 26px;
+    margin-top: 20px;
     margin-bottom: 0px;
     font-weight: 900;
 }
@@ -122,7 +122,7 @@
 .socials-text-title {
     font-size: 24px;
     color: white;
-    margin-top: 26px;
+    margin-top: 20px;
     margin-bottom: 0px;
     font-weight: 900;
 }
@@ -134,7 +134,7 @@
     color: white;
     border-radius: 15px;
     margin: 5px;
-    
+
 }
 
 .social-card .social-img {
@@ -149,30 +149,42 @@
     
 } */
 
+.social-name {
+    color: rgb(137, 137, 137);
+    display: inline;
+    font-size: 14px;
+}
+
 @media (min-width: 415px) {
     .social-card .social-title {
         margin-top: 6px;
     }
 }
+
 @media (min-width: 476px) {
-.social-card .social-title {
+    .social-card .social-title {
         margin-top: 12px;
     }
 }
+
 @media (min-width: 768px) {
-.social-card .social-title {
+    .social-card .social-title {
         margin-top: 2px;
     }
 }
+
 @media (min-width: 992px) {
-.social-card .social-img {
+    .social-card .social-img {
         max-width: 34px;
         margin-left: 15px;
     }
 }
+
 .social-card-link {
     color: white;
+    text-decoration: none;
 }
+
 .social-card:hover {
     padding: 20px;
     margin: 0px;
@@ -180,4 +192,29 @@
     background-color: transparent;
 
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.pop-section {
+    color: white;
+    margin-top: 18px;
+}
+
+.pop-item-content {
+    padding: 5px;
+    border-radius: 10px;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.pop-item-content .icon {
+    display: inline;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+@media (min-width: 576px) {
+    .pop-item {
+    text-align: center;
+}
 }

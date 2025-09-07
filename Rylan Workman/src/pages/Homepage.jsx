@@ -32,6 +32,35 @@ function Homepage() {
                                 </div>
                             </Row>
                             <Row>
+                                <div className='col-md-1' />
+                                <div className='col-12 col-md-10'>
+                                    <div className='pop-section'>
+                                        <Row>
+                                            <div className='pop-item col-12 col-sm-6 col-lg-3'>
+                                                <div className='pop-item-content'>
+                                                    <div className='icon'>🌎</div> Virginia, US
+                                                </div>
+                                            </div>
+                                            <div className='pop-item col-12 col-sm-6 col-lg-3'>
+                                                <div className='pop-item-content'>
+                                                    <div className='icon'>📜</div> Liberty University
+                                                </div>
+                                            </div>
+                                            <div className='pop-item col-12 col-sm-6 col-lg-3'>
+                                                <div className='pop-item-content'>
+                                                    <div className='icon'>💻</div> Computer Science
+                                                </div>
+                                            </div>
+                                            <div className='pop-item col-12 col-sm-6 col-lg-3'>
+                                                <div className='pop-item-content'>
+                                                    <div className='icon'>🎥</div> Media
+                                                </div>
+                                            </div>
+                                        </Row>
+                                    </div>
+                                </div>
+                            </Row>
+                            <Row>
                                 <div className='col-12 col-md-6'>
                                     <p className='agdasima about-text-title'>
                                         About
@@ -47,47 +76,46 @@ function Homepage() {
                                     <p className='agdasima socials-text-title'>
                                         Socials
                                     </p>
-                                    <Container>
-                                        <Row>
-                                            <a href='https://www.youtube.com/@RylanTech' target='_blank' className='social-card-link'>
-                                                <div className='col-12 social-card'>
-                                                    <Row>
-                                                        <div className='col-2'>
-                                                            <img src={youtubeImage} className='social-img' />
-                                                        </div>
-                                                        <div className='col-10 social-title'>
-                                                            Youtube
-                                                        </div>
-                                                    </Row>
-                                                </div>
-                                            </a>
-                                            <a href='https://www.linkedin.com/in/rylanworkman/' target='_blank' className='social-card-link'>
-                                                <div className='col-12 social-card'>
-                                                    <Row>
-                                                        <div className='col-2'>
-                                                            <img src={linkedInImage} className='social-img' />
-                                                        </div>
-                                                        <div className='col-10 social-title'>
-                                                            LinkedIn
-                                                        </div>
-                                                    </Row>
-                                                </div>
-                                            </a>
-                                            <a href='https://github.com/rylantech' target='_blank' className='social-card-link'>
-                                                <div className='col-12 social-card'>
-                                                    <Row>
-                                                        <div className='col-2'>
-                                                            <img src={githubImage} className='social-img' />
-                                                        </div>
-                                                        <div className='col-10 social-title'>
-                                                            Github
-                                                        </div>
-                                                    </Row>
-                                                </div>
-                                            </a>
+                                    <Row>
+                                        <a href='https://www.youtube.com/@RylanTech' target='_blank' className='social-card-link'>
+                                            <div className='col-12 social-card'>
+                                                <Row>
+                                                    <div className='col-2'>
+                                                        <img src={youtubeImage} className='social-img' />
+                                                    </div>
+                                                    <div className='col-10 social-title'>
+                                                        Youtube <div className='social-name'> - @RylanTech</div>
+                                                    </div>
+                                                </Row>
+                                            </div>
+                                        </a>
+                                        <a href='https://www.linkedin.com/in/rylanworkman/' target='_blank' className='social-card-link'>
+                                            <div className='col-12 social-card'>
+                                                <Row>
+                                                    <div className='col-2'>
+                                                        <img src={linkedInImage} className='social-img' />
+                                                    </div>
+                                                    <div className='col-10 social-title'>
+                                                        LinkedIn <div className='social-name'> - Rylan Workman</div>
+                                                    </div>
+                                                </Row>
+                                            </div>
+                                        </a>
+                                        <a href='https://github.com/rylantech' target='_blank' className='social-card-link'>
+                                            <div className='col-12 social-card'>
+                                                <Row>
+                                                    <div className='col-2'>
+                                                        <img src={githubImage} className='social-img' />
+                                                    </div>
+                                                    <div className='col-10 social-title'>
+                                                        Github <div className='social-name'> - @RylanTech</div>
+                                                    </div>
+                                                </Row>
+                                            </div>
+                                        </a>
 
-                                        </Row>
-                                    </Container>
+                                    </Row>
+
                                 </div>
                             </Row>
                         </Container>
